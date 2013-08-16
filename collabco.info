@@ -1,0 +1,143 @@
+; Packaging information for collabco
+name = "collabco"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_repeat
+dependencies[] = date_repeat_field
+dependencies[] = date_views
+; Feeds
+dependencies[] = feeds
+dependencies[] = feeds_ui
+; Fields
+dependencies[] = addressfield
+dependencies[] = entityreference
+dependencies[] = field_collection
+dependencies[] = field_collection_fieldset
+dependencies[] = link
+dependencies[] = node_reference
+dependencies[] = references
+dependencies[] = references_dialog
+; IIN Custom
+dependencies[] = iin_navigation_block
+dependencies[] = iin_profile_block
+; Input filters
+dependencies[] = pathologic
+; Mail
+dependencies[] = mailsystem
+; MailChimp
+dependencies[] = mandrill
+dependencies[] = mandrill_reports
+dependencies[] = mandrill_template
+; Message
+dependencies[] = message
+; Nodequeue
+dependencies[] = nodequeue
+; Organic groups
+dependencies[] = og
+dependencies[] = og_access
+dependencies[] = og_context
+dependencies[] = og_field_access
+dependencies[] = og_register
+dependencies[] = og_ui
+; Other
+dependencies[] = better_formats
+dependencies[] = block_class
+dependencies[] = creative_commons
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = job_scheduler
+dependencies[] = job_scheduler_trigger
+dependencies[] = legal
+dependencies[] = libraries
+dependencies[] = mail_edit
+dependencies[] = masquerade
+dependencies[] = olark
+dependencies[] = pathauto
+dependencies[] = profile2
+dependencies[] = profile2_page
+dependencies[] = quicktabs
+dependencies[] = realname
+dependencies[] = realname_registration
+dependencies[] = reg_with_pic
+dependencies[] = security_review
+dependencies[] = stringoverrides
+dependencies[] = strongarm
+dependencies[] = token
+; Search Toolkit
+dependencies[] = apachesolr
+dependencies[] = apachesolr_autocomplete
+dependencies[] = apachesolr_search
+; Spam control
+dependencies[] = captcha
+dependencies[] = image_captcha
+dependencies[] = recaptcha
+; Statistics
+dependencies[] = googleanalytics
+; UUID
+dependencies[] = uuid
+; User Management
+dependencies[] = register_preapproved
+; User interface
+dependencies[] = ckeditor
+; Views
+dependencies[] = better_exposed_filters
+dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Voting
+dependencies[] = fivestar
+dependencies[] = votingapi
+; Features
+dependencies[] = features
+dependencies[] = collabco_entities_feature
+dependencies[] = collabco_extension_service_feature
+dependencies[] = collabco_formats_feature
+dependencies[] = collabco_groups_feature
+dependencies[] = collabco_permissions_feature
+dependencies[] = collabco_settings_feature
+dependencies[] = collabco_view_feature
+dependencies[] = message_example
+

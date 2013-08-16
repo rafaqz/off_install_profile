@@ -132,6 +132,7 @@ dependencies[] = fivestar
 dependencies[] = votingapi
 ; Features
 dependencies[] = features
+dependencies[] = collabco_blocks_feature
 dependencies[] = collabco_entities_feature
 dependencies[] = collabco_extension_service_feature
 dependencies[] = collabco_formats_feature
@@ -139,5 +140,4 @@ dependencies[] = collabco_groups_feature
 dependencies[] = collabco_permissions_feature
 dependencies[] = collabco_settings_feature
 dependencies[] = collabco_view_feature
-dependencies[] = message_example
 

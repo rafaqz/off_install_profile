@@ -42,16 +42,6 @@ function collabco_install() {
       'cache' => -1,
     ),
     array(
-      'module' => 'user',
-      'delta' => 'login',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
       'module' => 'system',
       'delta' => 'help',
       'theme' => $default_theme,
@@ -108,6 +98,7 @@ function collabco_install() {
   menu_rebuild();
   // revert features to ensure they are all installed
   $features = array(
+    'collabco_blocks_feature',
     'collabco_entities_feature',
     'collabco_extension_service_feature',
     'collabco_formats_feature',

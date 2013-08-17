@@ -54,9 +54,6 @@ dependencies[] = entityreference
 dependencies[] = field_collection
 dependencies[] = field_collection_fieldset
 dependencies[] = link
-dependencies[] = node_reference
-dependencies[] = references
-dependencies[] = references_dialog
 ; IIN Custom
 dependencies[] = iin_navigation_block
 dependencies[] = iin_profile_block
@@ -124,8 +121,8 @@ dependencies[] = ckeditor
 dependencies[] = better_exposed_filters
 dependencies[] = views
 dependencies[] = views_bulk_operations
-dependencies[] = views_slideshow
-dependencies[] = views_slideshow_cycle
+;dependencies[] = views_slideshow
+;dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
 ; Voting
 dependencies[] = fivestar

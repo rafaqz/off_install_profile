@@ -25,6 +25,8 @@ projects[profiler_builder][subdir] = "contrib"
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
 
+projects[features_extra][subdir] = "contrib"
+
 projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
 
@@ -33,12 +35,6 @@ projects[addressfield][subdir] = "contrib"
 
 projects[entityreference][version] = "1.0"
 projects[entityreference][subdir] = "contrib"
-
-projects[field_collection][version] = "1.0-beta5"
-projects[field_collection][subdir] = "contrib"
-
-projects[field_collection_fieldset][version] = "2.3"
-projects[field_collection_fieldset][subdir] = "contrib"
 
 projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
@@ -99,9 +95,6 @@ projects[pathauto][subdir] = "contrib"
 
 projects[profile2][version] = "1.3"
 projects[profile2][subdir] = "contrib"
-
-projects[quicktabs][version] = "3.4"
-projects[quicktabs][subdir] = "contrib"
 
 projects[realname][version] = "1.1"
 projects[realname][subdir] = "contrib"
@@ -194,12 +187,6 @@ projects[collabco_entities_feature][download][url] = "git@github.com:Collabforge
 projects[collabco_entities_feature][type] = "module"
 projects[collabco_entities_feature][version] = "1.0-alpha1"
 projects[collabco_entities_feature][subdir] = "features"
-
-projects[collabco_extension_service_feature][download][type] = "git"
-projects[collabco_extension_service_feature][download][url] = "git@github.com:Collabforge/collabco_extension_service_feature"
-projects[collabco_extension_service_feature][type] = "module"
-projects[collabco_extension_service_feature][version] = "1.0-alpha1"
-projects[collabco_extension_service_feature][subdir] = "features"
 
 projects[collabco_groups_feature][download][type] = "git"
 projects[collabco_groups_feature][download][url] = "git@github.com:Collabforge/collabco_groups_feature"

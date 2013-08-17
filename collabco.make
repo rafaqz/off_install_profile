@@ -7,6 +7,9 @@ projects[drupal][version] = "7.21"
 
 ; +++++ Modules +++++
 
+projects[profiler][version] = "7.x-2.0-beta1"
+projects[profiler][subdir] = "contrib"
+
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 

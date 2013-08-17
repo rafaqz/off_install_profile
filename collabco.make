@@ -22,8 +22,6 @@ projects[devel][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[profiler[subdir] = "contrib"
-
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
 
@@ -254,3 +252,8 @@ libraries[jquery.cycle][download][file] = "jquery.cycle.all.min.js"
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][type] = "library"
 
+
+; +++++ Profiles +++++
+projects[collabco][download][type] = "git"
+projects[collabco][download][url] = "git@github.com:Collabforge/collabco_profile.git"
+projects[collabco][type] = "profile"

@@ -22,6 +22,8 @@ projects[devel][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
+projects[profiler[subdir] = "contrib"
+
 projects[features][version] = "2.0-rc1"
 projects[features][subdir] = "contrib"
 

@@ -226,7 +226,7 @@ projects[collabco_settings_feature][subdir] = "features"
 ;projects[collabco_view_feature][subdir] = "features"
 
 projects[collabco_message_feature][download][type] = "git"
-projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_activity_feature.git"
+projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_message2_feature.git"
 projects[collabco_message_feature][type] = "module"
 projects[collabco_message_feature][subdir] = "features"
 

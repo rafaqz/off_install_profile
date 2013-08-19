@@ -28,8 +28,8 @@ function collabco_install() {
     ->condition('name', $admin_theme)
     ->execute();
   variable_set('admin_theme', $admin_theme);
-  // activate admin theme when editing a node
-  variable_set('node_admin_theme', '1');
+  // don't activate admin theme when editing a node
+  variable_set('node_admin_theme', '0');
   $blocks = array(
     array(
       'module' => 'system',
@@ -83,7 +83,7 @@ function collabco_install() {
   $query->execute();
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
-  $admin_role->name = 'administrator';
+  $admin_role->name = 'admin';
   $admin_role->weight = 10;
   user_role_save($admin_role);
   user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
@@ -96,19 +96,6 @@ function collabco_install() {
     ->execute();
   // Update the menu router information.
   menu_rebuild();
-  // revert features to ensure they are all installed
-  $features = array(
-    'collabco_blocks_feature',
-    'collabco_entities_feature',
-    'collabco_extension_service_feature',
-    'collabco_formats_feature',
-    'collabco_groups_feature',
-    'collabco_permissions_feature',
-    'collabco_settings_feature',
-    'collabco_view_feature',
-    'message_example'
-  );
-  features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages

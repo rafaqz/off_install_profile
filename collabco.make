@@ -7,160 +7,158 @@ projects[drupal][version] = "7.21"
 
 ; +++++ Modules +++++
 
-projects[profiler][version] = "7.x-2.0-beta1"
-projects[profiler][subdir] = "contrib"
+projects[addressfield][subdir] = "contrib"
+projects[addressfield][version] = "1.0-beta4"
 
-projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
+projects[admin_menu][version] = "3.0-rc4"
 
-projects[ctools][version] = "1.3"
+projects[apachesolr][subdir] = "contrib"
+projects[apachesolr][version] = "1.3"
+
+projects[apachesolr_autocomplete][subdir] = "contrib"
+projects[apachesolr_autocomplete][version] = "1.x-dev"
+
+projects[better_exposed_filters][subdir] = "contrib"
+projects[better_exposed_filters][version] = "3.0-beta3"
+
+projects[better_formats][subdir] = "contrib"
+projects[better_formats][version] = "1.0-beta1"
+
+projects[block_class][subdir] = "contrib"
+projects[block_class][version] = "2.0"
+
+projects[captcha][subdir] = "contrib"
+projects[captcha][version] = "1.0"
+
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.13"
+
+projects[creative_commons][subdir] = "contrib"
+projects[creative_commons][version] = "1.0"
+
 projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.3"
 
-projects[date][version] = "2.6"
 projects[date][subdir] = "contrib"
+projects[date][version] = "2.6"
 
-projects[devel][version] = "1.3"
 projects[devel][subdir] = "contrib"
+projects[devel][version] = "1.3"
 
-projects[profiler_builder][version] = "1.0"
-projects[profiler_builder][subdir] = "contrib"
+projects[diff][subdir] = "contrib"
+projects[diff][version] = "3.2"
 
-projects[features][version] = "2.0-rc1"
+projects[entity][subdir] = "contrib"
+projects[entity][version] = "1.1"
+
+projects[entityreference][subdir] = "contrib"
+projects[entityreference][version] = "1.0"
+
 projects[features][subdir] = "contrib"
+projects[features][version] = "2.0-rc1"
 
 projects[features_extra][subdir] = "contrib"
+projects[features_extra][version] = "7.x-1.0-beta1"
 
-projects[feeds][version] = "2.0-alpha8"
 projects[feeds][subdir] = "contrib"
+projects[feeds][version] = "2.0-alpha8"
 
-projects[addressfield][version] = "1.0-beta4"
-projects[addressfield][subdir] = "contrib"
-
-projects[entityreference][version] = "1.0"
-projects[entityreference][subdir] = "contrib"
-
-projects[link][version] = "1.1"
-projects[link][subdir] = "contrib"
-
-projects[pathologic][version] = "2.11"
-projects[pathologic][subdir] = "contrib"
-
-projects[mailsystem][version] = "2.34"
-projects[mailsystem][subdir] = "contrib"
-
-projects[mandrill][version] = "1.4"
-projects[mandrill][subdir] = "contrib"
-
-projects[message][version] = "1.9"
-projects[message][subdir] = "contrib"
-
-projects[nodequeue][version] = "2.x-dev"
-projects[nodequeue][subdir] = "contrib"
-
-projects[og][version] = "2.3"
-projects[og][subdir] = "contrib"
-
-projects[better_formats][version] = "1.0-beta1"
-projects[better_formats][subdir] = "contrib"
-
-projects[block_class][version] = "2.0"
-projects[block_class][subdir] = "contrib"
-
-projects[creative_commons][version] = "1.0"
-projects[creative_commons][subdir] = "contrib"
-
-projects[diff][version] = "3.2"
-projects[diff][subdir] = "contrib"
-
-projects[entity][version] = "1.1"
-projects[entity][subdir] = "contrib"
-
-projects[job_scheduler][version] = "2.0-alpha3"
-projects[job_scheduler][subdir] = "contrib"
-
-projects[legal][version] = "1.4"
-projects[legal][subdir] = "contrib"
-
-projects[libraries][version] = "2.1"
-projects[libraries][subdir] = "contrib"
-
-projects[mail_edit][version] = "1.0"
-projects[mail_edit][subdir] = "contrib"
-
-projects[masquerade][version] = "1.0-rc5"
-projects[masquerade][subdir] = "contrib"
-
-projects[olark][version] = "1.0-beta1"
-projects[olark][subdir] = "contrib"
-
-projects[pathauto][version] = "1.2"
-projects[pathauto][subdir] = "contrib"
-
-projects[profile2][version] = "1.3"
-projects[profile2][subdir] = "contrib"
-
-projects[realname][version] = "1.1"
-projects[realname][subdir] = "contrib"
-
-projects[realname_registration][version] = "2.0-rc2"
-projects[realname_registration][subdir] = "contrib"
-
-projects[reg_with_pic][version] = "1.0"
-projects[reg_with_pic][subdir] = "contrib"
-
-projects[security_review][version] = "1.0"
-projects[security_review][subdir] = "contrib"
-
-projects[stringoverrides][version] = "1.8"
-projects[stringoverrides][subdir] = "contrib"
-
-projects[strongarm][version] = "2.0"
-projects[strongarm][subdir] = "contrib"
-
-projects[token][version] = "1.5"
-projects[token][subdir] = "contrib"
-
-projects[apachesolr][version] = "1.3"
-projects[apachesolr][subdir] = "contrib"
-
-projects[apachesolr_autocomplete][version] = "1.x-dev"
-projects[apachesolr_autocomplete][subdir] = "contrib"
-
-projects[captcha][version] = "1.0"
-projects[captcha][subdir] = "contrib"
-
-projects[recaptcha][version] = "1.9"
-projects[recaptcha][subdir] = "contrib"
-
-projects[google_analytics][version] = "1.3"
 projects[google_analytics][subdir] = "contrib"
+projects[google_analytics][version] = "1.3"
 
-projects[uuid][version] = "1.0-alpha5"
-projects[uuid][subdir] = "contrib"
+projects[job_scheduler][subdir] = "contrib"
+projects[job_scheduler][version] = "2.0-alpha3"
 
-projects[register_preapproved][version] = "1.0-beta2"
+projects[legal][subdir] = "contrib"
+projects[legal][version] = "1.4"
+
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "2.1"
+
+projects[link][subdir] = "contrib"
+projects[link][version] = "1.1"
+
+projects[mail_edit][subdir] = "contrib"
+projects[mail_edit][version] = "1.0"
+
+projects[mailsystem][subdir] = "contrib"
+projects[mailsystem][version] = "2.34"
+
+projects[mandrill][subdir] = "contrib"
+projects[mandrill][version] = "1.4"
+
+projects[masquerade][subdir] = "contrib"
+projects[masquerade][version] = "1.0-rc5"
+
+projects[message][subdir] = "contrib"
+projects[message][version] = "1.9"
+
+projects[nodequeue][subdir] = "contrib"
+projects[nodequeue][version] = "2.x-dev"
+
+projects[og][subdir] = "contrib"
+projects[og][version] = "2.3"
+
+projects[olark][subdir] = "contrib"
+projects[olark][version] = "1.0-beta1"
+
+projects[pathauto][subdir] = "contrib"
+projects[pathauto][version] = "1.2"
+
+projects[pathologic][subdir] = "contrib"
+projects[pathologic][version] = "2.11"
+
+projects[profile2][subdir] = "contrib"
+projects[profile2][version] = "1.3"
+
+projects[profiler][subdir] = "contrib"
+projects[profiler][version] = "7.x-2.0-beta1"
+
+projects[profiler_builder][subdir] = "contrib"
+projects[profiler_builder][version] = "1.0"
+
+projects[realname][subdir] = "contrib"
+projects[realname][version] = "1.1"
+
+projects[realname_registration][subdir] = "contrib"
+projects[realname_registration][version] = "2.0-rc2"
+
+projects[recaptcha][subdir] = "contrib"
+projects[recaptcha][version] = "1.9"
+
+projects[reg_with_pic][subdir] = "contrib"
+projects[reg_with_pic][version] = "1.0"
+
 projects[register_preapproved][subdir] = "contrib"
+projects[register_preapproved][version] = "1.0-beta2"
 
-projects[ckeditor][version] = "1.13"
-projects[ckeditor][subdir] = "contrib"
+projects[security_review][subdir] = "contrib"
+projects[security_review][version] = "1.0"
 
-projects[better_exposed_filters][version] = "3.0-beta3"
-projects[better_exposed_filters][subdir] = "contrib"
+projects[stringoverrides][subdir] = "contrib"
+projects[stringoverrides][version] = "1.8"
 
-projects[views][version] = "3.7"
+projects[strongarm][subdir] = "contrib"
+projects[strongarm][version] = "2.0"
+
+projects[token][subdir] = "contrib"
+projects[token][version] = "1.5"
+
+projects[uuid][subdir] = "contrib"
+projects[uuid][version] = "1.0-alpha5"
+
+projects[uuid_features][subdir] = "contrib"
+projects[uuid_features][version] = "7.x-1.0-alpha3"
+
 projects[views][subdir] = "contrib"
+projects[views][version] = "3.7"
 
-projects[views_bulk_operations][version] = "3.1"
 projects[views_bulk_operations][subdir] = "contrib"
+projects[views_bulk_operations][version] = "3.1"
 
-projects[views_slideshow][version] = "3.x-dev"
 projects[views_slideshow][subdir] = "contrib"
-
-projects[fivestar][version] = "2.0-alpha2"
-projects[fivestar][subdir] = "contrib"
-
-projects[votingapi][version] = "2.11"
-projects[votingapi][subdir] = "contrib"
+projects[views_slideshow][version] = "3.x-dev"
 
 ; +++++ Patches +++++
 
@@ -191,11 +189,22 @@ projects[collabco_entities_feature][type] = "module"
 projects[collabco_entities_feature][version] = "1.0-alpha1"
 projects[collabco_entities_feature][subdir] = "features"
 
+projects[collabco_formats_feature][download][type] = "git"
+projects[collabco_formats_feature][download][url] = "git@github.com:Collabforge/collabco_formats_feature"
+projects[collabco_formats_feature][type] = "module"
+projects[collabco_formats_feature][version] = "1.0-alpha1"
+projects[collabco_formats_feature][subdir] = "features"
+
 projects[collabco_groups_feature][download][type] = "git"
 projects[collabco_groups_feature][download][url] = "git@github.com:Collabforge/collabco_groups_feature"
 projects[collabco_groups_feature][type] = "module"
 projects[collabco_groups_feature][version] = "1.0-alpha1"
 projects[collabco_groups_feature][subdir] = "features"
+
+projects[collabco_message_feature][download][type] = "git"
+projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_message_feature.git"
+projects[collabco_message_feature][type] = "module"
+projects[collabco_message_feature][subdir] = "features"
 
 projects[collabco_permissions_feature][download][type] = "git"
 projects[collabco_permissions_feature][download][url] = "git@github.com:Collabforge/collabco_permissions_feature"
@@ -214,17 +223,6 @@ projects[collabco_settings_feature][download][url] = "git@github.com:Collabforge
 projects[collabco_settings_feature][type] = "module"
 projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
-
-projects[collabco_formats_feature][download][type] = "git"
-projects[collabco_formats_feature][download][url] = "git@github.com:Collabforge/collabco_formats_feature"
-projects[collabco_formats_feature][type] = "module"
-projects[collabco_formats_feature][version] = "1.0-alpha1"
-projects[collabco_formats_feature][subdir] = "features"
-
-projects[collabco_message_feature][download][type] = "git"
-projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_message_feature.git"
-projects[collabco_message_feature][type] = "module"
-projects[collabco_message_feature][subdir] = "features"
 
 ; +++++ Themes +++++
 projects[open_framework][type] = "theme"

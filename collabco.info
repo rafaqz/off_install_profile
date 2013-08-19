@@ -51,8 +51,6 @@ dependencies[] = feeds_ui
 ; Fields
 dependencies[] = addressfield
 dependencies[] = entityreference
-dependencies[] = field_collection
-dependencies[] = field_collection_fieldset
 dependencies[] = link
 ; IIN Custom
 dependencies[] = iin_navigation_block
@@ -81,6 +79,7 @@ dependencies[] = better_formats
 dependencies[] = block_class
 dependencies[] = creative_commons
 dependencies[] = diff
+dependencies[] = devel_generate
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = job_scheduler
@@ -89,6 +88,7 @@ dependencies[] = legal
 dependencies[] = libraries
 dependencies[] = mail_edit
 dependencies[] = masquerade
+dependencies[] = nodequeue_generate
 dependencies[] = olark
 dependencies[] = pathauto
 dependencies[] = profile2
@@ -121,12 +121,7 @@ dependencies[] = ckeditor
 dependencies[] = better_exposed_filters
 dependencies[] = views
 dependencies[] = views_bulk_operations
-;dependencies[] = views_slideshow
-;dependencies[] = views_slideshow_cycle
 dependencies[] = views_ui
-; Voting
-dependencies[] = fivestar
-dependencies[] = votingapi
 ; Features
 dependencies[] = features
 dependencies[] = collabco_blocks_feature
@@ -137,4 +132,5 @@ dependencies[] = collabco_groups_feature
 dependencies[] = collabco_permissions_feature
 dependencies[] = collabco_settings_feature
 dependencies[] = collabco_view_feature
+dependencies[] = message_example
 

@@ -105,7 +105,8 @@ function collabco_install() {
     'collabco_message_feature',
     'collabco_conversion_feature',
     'collabco_permissions_feature',
-//    'collabco_profile_feature',
+    'collabco_profile_feature',
+    'collabco_organisation_feature',
   );
   features_revert($features);
   // ignore any rebuild messages

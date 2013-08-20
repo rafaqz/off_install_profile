@@ -112,6 +112,7 @@ dependencies[] = recaptcha
 dependencies[] = googleanalytics
 ; UUID
 dependencies[] = uuid
+dependencies[] = uuid_features
 ; User Management
 dependencies[] = register_preapproved
 ; User interface

@@ -97,11 +97,11 @@ function collabco_install() {
   // Update the menu router information.
   menu_rebuild();
   // revert features to ensure they are all installed
-//  $features = array(
-//    'collabco_formats_feature',
-//    'collabco_groups_feature',
-//    'collabco_settings_feature',
-//  );
+  $features = array(
+    'collabco_formats_feature',
+    'collabco_groups_feature',
+    'collabco_settings_feature',
+  );
   features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);

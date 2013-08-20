@@ -99,8 +99,13 @@ function collabco_install() {
   // revert features to ensure they are all installed
   $features = array(
     'collabco_formats_feature',
-    'collabco_groups_feature',
     'collabco_settings_feature',
+    'collabco_groups_feature',
+    'collabco_event_feature',
+    'collabco_message_feature',
+    'collabco_conversion_feature',
+    'collabco_permissions_feature',
+    'collabco_profile_feature',
   );
   features_revert($features);
   // ignore any rebuild messages

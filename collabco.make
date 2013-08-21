@@ -116,7 +116,7 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[profiler][subdir] = "contrib"
-projects[profiler][version] = "7.x-2.0-beta1"
+projects[profiler][version] = "2.0-beta1"
 
 projects[profiler_builder][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0"
@@ -152,7 +152,7 @@ projects[uuid][subdir] = "contrib"
 projects[uuid][version] = "1.0-alpha5"
 
 projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][version] = "7.x-1.0-alpha3"
+projects[uuid_features][version] = "1.0-alpha3"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"

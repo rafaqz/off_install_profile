@@ -95,7 +95,7 @@ projects[message][subdir] = "contrib"
 projects[message][version] = "1.9"
 
 projects[node_export][subdir] = "contrib"
-projects[node_export][version] = "7.x-3.0"
+projects[node_export][version] = "3.0"
 
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.x-dev"

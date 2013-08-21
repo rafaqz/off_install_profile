@@ -253,9 +253,9 @@ projects[open_framework][type] = "theme"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:Collabforge/theme_open_framework.git"
 
-projects[openhub][download][type] = "git"
-projects[openhub][download][url] = "git@github.com:Collabforge/theme_openhub.git"
-projects[openhub][type] = "theme"
+projects[collabco_theme][download][type] = "git"
+projects[collabco_theme][download][url] = "git@github.com:Collabforge/collabco_theme"
+projects[collabco_theme][type] = "theme"
 
 ; +++++ Libraries +++++
 libraries[jquery.cycle][download][type] = "get"

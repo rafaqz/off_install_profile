@@ -64,6 +64,8 @@ dependencies[] = mandrill_reports
 dependencies[] = mandrill_template
 ; Message
 dependencies[] = message
+; Node export
+dependencies[] = node_export
 ; Nodequeue
 dependencies[] = nodequeue
 ; Organic groups

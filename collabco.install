@@ -8,7 +8,7 @@
  */
 function collabco_install() {
   // Enable some collabco blocks.
-  $default_theme = 'collabco_theme';
+  $default_theme = 'openhub';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')

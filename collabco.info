@@ -94,7 +94,6 @@ dependencies[] = olark
 dependencies[] = pathauto
 dependencies[] = profile2
 dependencies[] = profile2_page
-dependencies[] = quicktabs
 dependencies[] = realname
 dependencies[] = realname_registration
 dependencies[] = reg_with_pic

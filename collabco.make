@@ -218,12 +218,6 @@ projects[collabco_settings_feature][download][url] = "git@github.com:Collabforge
 projects[collabco_settings_feature][type] = "module"
 projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
-;
-;projects[collabco_view_feature][download][type] = "git"
-;projects[collabco_view_feature][download][url] = "git@github.com:Collabforge/collabco_view_feature"
-;projects[collabco_view_feature][type] = "module"
-;projects[collabco_view_feature][version] = "1.0-alpha1"
-;projects[collabco_view_feature][subdir] = "features"
 
 projects[collabco_message_feature][download][type] = "git"
 projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_message_feature2.git"
@@ -236,26 +230,14 @@ projects[collabco_organisation_feature][type] = "module"
 projects[collabco_organisation_feature][version] = "1.0-alpha1"
 projects[collabco_organisation_feature][subdir] = "features"
 
-;projects[collabco_blocks_feature][download][type] = "git"
-;projects[collabco_blocks_feature][download][url] = "git@github.com:Collabforge/collabco_blocks_feature.git"
-;projects[collabco_blocks_feature][type] = "module"
-;projects[collabco_blocks_feature][version] = "1.0-alpha1"
-;projects[collabco_blocks_feature][subdir] = "features"
-;
-;projects[collabco_entities_feature][download][type] = "git"
-;projects[collabco_entities_feature][download][url] = "git@github.com:Collabforge/collabco_entities_feature.git"
-;projects[collabco_entities_feature][type] = "module"
-;projects[collabco_entities_feature][version] = "1.0-alpha1"
-;projects[collabco_entities_feature][subdir] = "features"
-
 ; +++++ Themes +++++
 projects[open_framework][type] = "theme"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:Collabforge/theme_open_framework.git"
 
-projects[collabco_theme][download][type] = "git"
-projects[collabco_theme][download][url] = "git@github.com:Collabforge/collabco_theme"
-projects[collabco_theme][type] = "theme"
+projects[openhub][download][type] = "git"
+projects[openhub][download][url] = "git@github.com:Collabforge/collabco_theme"
+projects[openhub][type] = "theme"
 
 ; +++++ Libraries +++++
 libraries[jquery.cycle][download][type] = "get"

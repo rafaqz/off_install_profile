@@ -114,5 +114,5 @@ function collabco_install() {
   // ignore any other install messages
   drupal_get_messages();
   // set private files path
-  variable_set('file_private_path', "sites/default/private);
+  variable_set('file_private_path', 'sites/default/private');
 }

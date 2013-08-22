@@ -127,11 +127,12 @@ dependencies[] = views_ui
 dependencies[] = features
 dependencies[] = collabco_formats_feature
 dependencies[] = collabco_settings_feature
-dependencies[] = collabco_groups_feature
-dependencies[] = collabco_organisation_feature
 dependencies[] = collabco_conversation_feature
+dependencies[] = collabco_organisation_feature
 dependencies[] = collabco_event_feature
+dependencies[] = collabco_mail_feature
 dependencies[] = collabco_message_feature
+dependencies[] = collabco_groups_feature
 dependencies[] = collabco_permissions_feature
 dependencies[] = collabco_profile_feature
 

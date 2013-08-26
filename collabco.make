@@ -192,17 +192,6 @@ projects[collabco_event_feature][type] = "module"
 ;projects[collabco_event_feature][version] = "1.0-alpha1"
 projects[collabco_event_feature][subdir] = "features"
 
-projects[collabco_conversation_feature][download][type] = "git"
-projects[collabco_conversation_feature][download][url] = "git@github.com:Collabforge/collabco_conversation_feature"
-projects[collabco_conversation_feature][type] = "module"
-;projects[collabco_conversation_feature][version] = "1.0-alpha1"
-projects[collabco_conversation_feature][subdir] = "features"
-
-projects[collabco_profile_feature][download][type] = "git"
-projects[collabco_profile_feature][download][url] = "git@github.com:Collabforge/collabco_profile_feature"
-projects[collabco_profile_feature][type] = "module"
-projects[collabco_profile_feature][subdir] = "features"
-
 projects[collabco_groups_feature][download][type] = "git"
 projects[collabco_groups_feature][download][url] = "git@github.com:Collabforge/collabco_groups_feature"
 projects[collabco_groups_feature][type] = "module"

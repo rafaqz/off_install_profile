@@ -169,11 +169,6 @@ projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesol
 
 
 ; Custom
-projects[iin_navigation_block][type] = "module"
-projects[iin_navigation_block][download][type] = "git"
-projects[iin_navigation_block][download][url] = "git@github.com:Collabforge/collabco_navigation_block.git"
-projects[iin_navigation_block][subdir] = "custom"
-
 projects[iin_profile_block][type] = "module"
 projects[iin_profile_block][download][type] = "git"
 projects[iin_profile_block][download][url] = "git@github.com:Collabforge/collabco_profile_block.git"
@@ -232,9 +227,9 @@ projects[open_framework][type] = "theme"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:Collabforge/theme_open_framework.git"
 
-projects[openhub][download][type] = "git"
-projects[openhub][download][url] = "git@github.com:Collabforge/collabco_theme"
-projects[openhub][type] = "theme"
+projects[collabco_theme][download][type] = "git"
+projects[collabco_theme][download][url] = "git@github.com:Collabforge/collabco_theme"
+projects[collabco_theme][type] = "theme"
 
 ; +++++ Libraries +++++
 libraries[jquery.cycle][download][type] = "get"

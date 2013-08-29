@@ -15,12 +15,6 @@ function collabco_install() {
     ->fields(array('status' => 0))
     ->condition('type', 'theme')
     ->execute();
-  // enable $default_theme
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', $default_theme)
-    ->execute();
   // enable $admin_theme
   db_update('system')
     ->fields(array('status' => 1))
@@ -31,26 +25,6 @@ function collabco_install() {
   // activate admin theme when editing a node
   variable_set('node_admin_theme', '0');
   $blocks = array(
-    array(
-      'module' => 'system',
-      'delta' => 'main',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'help',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => -10,
-      'region' => 'content',
-      'pages' => '',
-      'cache' => -1,
-    ),
     array(
       'module' => 'system',
       'delta' => 'main',

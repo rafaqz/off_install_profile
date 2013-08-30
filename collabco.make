@@ -174,6 +174,11 @@ projects[iin_profile_block][download][type] = "git"
 projects[iin_profile_block][download][url] = "git@github.com:Collabforge/collabco_profile_block.git"
 projects[iin_profile_block][subdir] = "custom"
 
+projects[collabco_module][type] = "module"
+projects[collabco_module][download][type] = "git"
+projects[collabco_module][download][url] = "git@github.com:Collabforge/collabco_module.git"
+projects[collabco_module][subdir] = "custom"
+
 ; +++++ Features +++++
 projects[collabco_formats_feature][download][type] = "git"
 projects[collabco_formats_feature][download][url] = "git@github.com:Collabforge/collabco_formats_feature"

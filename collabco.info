@@ -51,9 +51,10 @@ dependencies[] = feeds_ui
 dependencies[] = addressfield
 dependencies[] = entityreference
 dependencies[] = link
-; IIN Custom
+; Collabco Custom
 dependencies[] = iin_navigation_block
 dependencies[] = iin_profile_block
+dependencies[] = collabco_module
 ; Input filters
 dependencies[] = pathologic
 ; Mail

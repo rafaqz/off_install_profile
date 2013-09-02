@@ -55,6 +55,9 @@ projects[entity][version] = "1.1"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 
+projects[filefield_nginx_progress][subdir] = "contrib"
+projects[filefield_nginx_progress][version] = "2.3"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-rc1"
 
@@ -62,7 +65,7 @@ projects[features_extra][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
 
 projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.0-alpha8"
+projects[feeds][version] = "2.x-dev"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"

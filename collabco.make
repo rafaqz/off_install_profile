@@ -163,15 +163,17 @@ projects[views][version] = "3.7"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 
+projects[views_send][subdir] = "contrib"
+projects[views_send][version] = "1.0-rc3"
+
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
 
 ; +++++ Patches +++++
-
 projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesolr_autocomplete-autocomplete_for_custom_search_pages-1444038-23-D7_1.patch"
 
 
-; Custom
+; +++++ Custom +++++
 projects[iin_profile_block][type] = "module"
 projects[iin_profile_block][download][type] = "git"
 projects[iin_profile_block][download][url] = "git@github.com:Collabforge/collabco_profile_block.git"

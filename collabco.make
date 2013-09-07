@@ -184,18 +184,12 @@ projects[collabco_module][download][type] = "git"
 projects[collabco_module][download][url] = "git@github.com:Collabforge/collabco_module.git"
 projects[collabco_module][subdir] = "custom"
 
-; +++++ Features +++++
+; +++++ Core Features +++++
 projects[collabco_formats_feature][download][type] = "git"
 projects[collabco_formats_feature][download][url] = "git@github.com:Collabforge/collabco_formats_feature"
 projects[collabco_formats_feature][type] = "module"
 ;projects[collabco_formats_feature][version] = "1.0-alpha1"
 projects[collabco_formats_feature][subdir] = "features"
-
-projects[collabco_event_feature][download][type] = "git"
-projects[collabco_event_feature][download][url] = "git@github.com:Collabforge/collabco_event_feature"
-projects[collabco_event_feature][type] = "module"
-;projects[collabco_event_feature][version] = "1.0-alpha1"
-projects[collabco_event_feature][subdir] = "features"
 
 projects[collabco_groups_feature][download][type] = "git"
 projects[collabco_groups_feature][download][url] = "git@github.com:Collabforge/collabco_groups_feature"
@@ -214,23 +208,6 @@ projects[collabco_settings_feature][download][url] = "git@github.com:Collabforge
 projects[collabco_settings_feature][type] = "module"
 ;projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
-
-projects[collabco_message_feature][download][type] = "git"
-projects[collabco_message_feature][download][url] = "git@github.com:Collabforge/collabco_message_feature2.git"
-projects[collabco_message_feature][type] = "module"
-projects[collabco_message_feature][subdir] = "features"
-
-projects[collabco_organisation_feature][download][type] = "git"
-projects[collabco_organisation_feature][download][url] = "git@github.com:Collabforge/collabco_organisation_feature"
-projects[collabco_organisation_feature][type] = "module"
-;projects[collabco_organisation_feature][version] = "1.0-alpha1"
-projects[collabco_organisation_feature][subdir] = "features"
-
-projects[collabco_mail_feature][download][type] = "git"
-projects[collabco_mail_feature][download][url] = "git@github.com:Collabforge/collabco_mail_feature"
-projects[collabco_mail_feature][type] = "module"
-;projects[collabco_mail_feature][version] = "1.0-alpha1"
-projects[collabco_mail_feature][subdir] = "features"
 
 ; +++++ Themes +++++
 projects[open_framework][type] = "theme"

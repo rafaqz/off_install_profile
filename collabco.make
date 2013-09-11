@@ -166,6 +166,9 @@ projects[uuid_features][version] = "1.0-alpha3"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
 
+projects[views_autocomplete_filters][subdir] = "contrib"
+projects[views_autocomplete_filters][version] = "1.0"
+
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.1"
 

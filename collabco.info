@@ -84,6 +84,7 @@ dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = job_scheduler
 dependencies[] = job_scheduler_trigger
+dependencies[] = jquery_update
 dependencies[] = legal
 dependencies[] = libraries
 dependencies[] = mail_edit

@@ -52,6 +52,9 @@ projects[diff][version] = "3.2"
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.1"
 
+projects[entityconnect][subdir] = "contrib"
+projects[entityconnect][version] = "1.0-rc1"
+
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 
@@ -72,6 +75,9 @@ projects[google_analytics][version] = "1.3"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
+
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = "2.x-dev"
 
 projects[legal][subdir] = "contrib"
 projects[legal][version] = "1.4"

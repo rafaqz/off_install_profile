@@ -87,6 +87,7 @@ dependencies[] = job_scheduler_trigger
 dependencies[] = jquery_update
 dependencies[] = legal
 dependencies[] = libraries
+dependencies[] = logintoboggan
 dependencies[] = mail_edit
 dependencies[] = masquerade
 dependencies[] = nodequeue_generate

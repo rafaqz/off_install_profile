@@ -85,6 +85,9 @@ projects[legal][version] = "1.4"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.3"
+
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.1"
 

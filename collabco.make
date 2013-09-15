@@ -91,15 +91,6 @@ projects[logintoboggan][version] = "1.3"
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.1"
 
-projects[mail_edit][subdir] = "contrib"
-projects[mail_edit][version] = "1.0"
-
-projects[mailsystem][subdir] = "contrib"
-projects[mailsystem][version] = "2.34"
-
-projects[mandrill][subdir] = "contrib"
-projects[mandrill][version] = "1.4"
-
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc5"
 
@@ -177,9 +168,6 @@ projects[views_bulk_operations][version] = "3.1"
 
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
-
-projects[views_send][subdir] = "contrib"
-projects[views_send][version] = "1.0-rc3"
 
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"

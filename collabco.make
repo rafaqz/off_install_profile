@@ -34,6 +34,9 @@ projects[captcha][version] = "1.0"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-beta7"
+
 projects[creative_commons][subdir] = "contrib"
 projects[creative_commons][version] = "1.0"
 

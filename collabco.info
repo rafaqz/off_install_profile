@@ -531,7 +531,6 @@ dependencies[] = node
 dependencies[] = options
 dependencies[] = path
 dependencies[] = rdf
-dependencies[] = search
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
@@ -572,7 +571,7 @@ dependencies[] = og_ui
 ; Other
 dependencies[] = better_formats
 dependencies[] = block_class
-dependencies[] = creative_commons
+dependencies[] = context
 dependencies[] = diff
 dependencies[] = devel_generate
 dependencies[] = entity
@@ -596,10 +595,6 @@ dependencies[] = security_review
 dependencies[] = stringoverrides
 dependencies[] = strongarm
 dependencies[] = token
-; Search Toolkit
-dependencies[] = apachesolr
-dependencies[] = apachesolr_autocomplete
-dependencies[] = apachesolr_search
 ; Spam control
 dependencies[] = captcha
 dependencies[] = image_captcha

@@ -61,9 +61,6 @@ projects[entityconnect][version] = "1.0-rc1"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 
-projects[filefield_nginx_progress][subdir] = "contrib"
-projects[filefield_nginx_progress][version] = "2.3"
-
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0-rc1"
 
@@ -109,9 +106,6 @@ projects[nodequeue][version] = "2.x-dev"
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.3"
 
-projects[olark][subdir] = "contrib"
-projects[olark][version] = "1.0-beta1"
-
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
@@ -141,9 +135,6 @@ projects[reg_with_pic][version] = "1.0"
 
 projects[register_preapproved][subdir] = "contrib"
 projects[register_preapproved][version] = "1.0-beta2"
-
-projects[security_review][subdir] = "contrib"
-projects[security_review][version] = "1.0"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
@@ -177,7 +168,6 @@ projects[views_slideshow][version] = "3.x-dev"
 
 ; +++++ Patches +++++
 projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesolr_autocomplete-autocomplete_for_custom_search_pages-1444038-23-D7_1.patch"
-
 
 ; +++++ Custom +++++
 projects[iin_profile_block][type] = "module"

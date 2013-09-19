@@ -200,15 +200,21 @@ projects[collabco_settings_feature][type] = "module"
 projects[collabco_settings_feature][subdir] = "features"
 
 ; +++++ Themes +++++
+;
+; Base botstrap theme.
 projects[open_framework][type] = "theme"
 projects[open_framework][download][type] = "git"
 projects[open_framework][download][url] = "git@github.com:Collabforge/theme_open_framework.git"
 
+; Collabco sub-theme of openframework, takes care of general styling and layout.
+; a custom_theme subtheme of collabco_theme should be added in a stub make file.
 projects[collabco_theme][download][type] = "git"
 projects[collabco_theme][download][url] = "git@github.com:Collabforge/collabco_theme"
 projects[collabco_theme][type] = "theme"
 
 ; +++++ Libraries +++++
+;
+;This can possibly be removed.
 libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = "http://malsup.github.io/jquery.cycle.all.js"
 libraries[jquery.cycle][download][file] = "jquery.cycle.all.min.js"

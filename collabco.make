@@ -13,12 +13,6 @@ projects[addressfield][version] = "1.0-beta4"
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 
-projects[apachesolr][subdir] = "contrib"
-projects[apachesolr][version] = "1.3"
-
-projects[apachesolr_autocomplete][subdir] = "contrib"
-projects[apachesolr_autocomplete][version] = "1.x-dev"
-
 projects[better_exposed_filters][subdir] = "contrib"
 projects[better_exposed_filters][version] = "3.0-beta3"
 

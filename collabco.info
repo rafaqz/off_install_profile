@@ -1,4 +1,4 @@
-; Packaging information for collabco
+; Packaging information for collabco profile
 name = "collabco"
 description = ""
 exclusive = "1"

@@ -70,6 +70,7 @@ dependencies[] = og_context
 dependencies[] = og_field_access
 dependencies[] = og_register
 dependencies[] = og_ui
+dependencies[] = context_og
 ; Other
 dependencies[] = better_formats
 dependencies[] = block_class

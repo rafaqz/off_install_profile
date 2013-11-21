@@ -174,29 +174,29 @@ projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesol
 ; +++++ Custom +++++
 projects[iin_profile_block][type] = "module"
 projects[iin_profile_block][download][type] = "git"
-projects[iin_profile_block][download][url] = "git@github.com:Collabforge/collabco_profile_block.git"
+projects[iin_profile_block][download][url] = "git@github.com:rafaqz/collabco_profile_block.git"
 projects[iin_profile_block][subdir] = "custom"
 
 projects[collabco_module][type] = "module"
 projects[collabco_module][download][type] = "git"
-projects[collabco_module][download][url] = "git@github.com:Collabforge/collabco_module.git"
+projects[collabco_module][download][url] = "git@github.com:rafaqz/collabco_module.git"
 projects[collabco_module][subdir] = "custom"
 
 ; +++++ Core Features +++++
 projects[collabco_formats_feature][download][type] = "git"
-projects[collabco_formats_feature][download][url] = "git@github.com:Collabforge/collabco_formats_feature"
+projects[collabco_formats_feature][download][url] = "git@github.com:rafaqz/collabco_formats_feature"
 projects[collabco_formats_feature][type] = "module"
 ;projects[collabco_formats_feature][version] = "1.0-alpha1"
 projects[collabco_formats_feature][subdir] = "features"
 
 projects[collabco_groups_feature][download][type] = "git"
-projects[collabco_groups_feature][download][url] = "git@github.com:Collabforge/collabco_groups_feature"
+projects[collabco_groups_feature][download][url] = "git@github.com:rafaqz/collabco_groups_feature"
 projects[collabco_groups_feature][type] = "module"
 ;projects[collabco_groups_feature][version] = "1.0-alpha1"
 projects[collabco_groups_feature][subdir] = "features"
 
 projects[collabco_permissions_feature][download][type] = "git"
-projects[collabco_permissions_feature][download][url] = "git@github.com:Collabforge/collabco_permissions_feature"
+projects[collabco_permissions_feature][download][url] = "git@github.com:rafaqz/collabco_permissions_feature"
 projects[collabco_permissions_feature][type] = "module"
 ;projects[collabco_permissions_feature][version] = "1.0-alpha1"
 projects[collabco_permissions_feature][subdir] = "features"
@@ -204,7 +204,7 @@ projects[collabco_permissions_feature][subdir] = "features"
 ; @TODO - move realname login settings into a separate feature, and anything else
 ; that may be site specific.
 projects[collabco_settings_feature][download][type] = "git"
-projects[collabco_settings_feature][download][url] = "git@github.com:Collabforge/collabco_settings_feature"
+projects[collabco_settings_feature][download][url] = "git@github.com:rafaqz/collabco_settings_feature"
 projects[collabco_settings_feature][type] = "module"
 ;projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
@@ -214,12 +214,12 @@ projects[collabco_settings_feature][subdir] = "features"
 ; Base botstrap theme.
 projects[open_framework][type] = "theme"
 projects[open_framework][download][type] = "git"
-projects[open_framework][download][url] = "git@github.com:Collabforge/theme_open_framework.git"
+projects[open_framework][download][url] = "git@github.com:rafaqz/theme_open_framework.git"
 
 ; Collabco sub-theme of openframework, takes care of general styling and layout.
 ; a custom_theme subtheme of collabco_theme should be added in a stub make file.
 projects[collabco_theme][download][type] = "git"
-projects[collabco_theme][download][url] = "git@github.com:Collabforge/collabco_theme"
+projects[collabco_theme][download][url] = "git@github.com:rafaqz/collabco_theme"
 projects[collabco_theme][type] = "theme"
 
 ; +++++ Libraries +++++

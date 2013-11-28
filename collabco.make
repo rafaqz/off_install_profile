@@ -174,7 +174,7 @@ projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesol
 ; +++++ Custom +++++
 projects[iin_profile_block][type] = "module"
 projects[iin_profile_block][download][type] = "git"
-projects[iin_profile_block][download][url] = "git@github.com:rafaqz/collabco_profile_block.git"
+projects[iin_profile_block][download][url] = "git@github.com:rafaqz/iin_profile_block.git"
 projects[iin_profile_block][subdir] = "custom"
 
 projects[collabco_module][type] = "module"

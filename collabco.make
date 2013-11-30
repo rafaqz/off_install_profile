@@ -168,9 +168,6 @@ projects[views_data_export][version] = "3.0-beta6"
 projects[views_slideshow][subdir] = "contrib"
 projects[views_slideshow][version] = "3.x-dev"
 
-; +++++ Patches +++++
-projects[apachesolr_autocomplete][patch][] = "https://drupal.org/files/apachesolr_autocomplete-autocomplete_for_custom_search_pages-1444038-23-D7_1.patch"
-
 ; +++++ Custom +++++
 projects[iin_profile_block][type] = "module"
 projects[iin_profile_block][download][type] = "git"

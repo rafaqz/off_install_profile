@@ -63,8 +63,11 @@ projects[entityconnect][version] = "1.0-rc1"
 projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.0"
 
+projects[entityreference_prepopulate][subdir] = "contrib"
+projects[entityreference_prepopulate][version] = "1.3"
+
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-rc1"
+projects[features][version] = "2.0"
 
 projects[features_extra][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"

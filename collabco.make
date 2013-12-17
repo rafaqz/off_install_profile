@@ -192,6 +192,7 @@ projects[collabco_formats_feature][subdir] = "features"
 projects[collabco_groups_feature][download][type] = "git"
 projects[collabco_groups_feature][download][url] = "git@github.com:rafaqz/collabco_groups_feature"
 projects[collabco_groups_feature][type] = "module"
+projects[collabco_groups_feature][download][branch] = "off"
 ;projects[collabco_groups_feature][version] = "1.0-alpha1"
 projects[collabco_groups_feature][subdir] = "features"
 

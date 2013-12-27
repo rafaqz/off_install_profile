@@ -99,9 +99,6 @@ projects[link][version] = "1.1"
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc5"
 
-projects[message][subdir] = "contrib"
-projects[message][version] = "1.9"
-
 projects[node_export][subdir] = "contrib"
 projects[node_export][version] = "3.0"
 
@@ -109,7 +106,7 @@ projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.x-dev"
 
 projects[og][subdir] = "contrib"
-projects[og][version] = "2.3"
+projects[og][version] = "2.4"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"

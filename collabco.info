@@ -16,7 +16,6 @@ dependencies[] = ctools
 dependencies[] = block
 dependencies[] = comment
 dependencies[] = contextual
-dependencies[] = dblog
 dependencies[] = field
 dependencies[] = field_sql_storage
 dependencies[] = field_ui
@@ -42,9 +41,6 @@ dependencies[] = context
 ; Date/Time
 dependencies[] = date
 dependencies[] = date_api
-dependencies[] = date_popup
-dependencies[] = date_repeat
-dependencies[] = date_repeat_field
 dependencies[] = date_views
 ; Feeds
 dependencies[] = feeds
@@ -54,46 +50,28 @@ dependencies[] = addressfield
 dependencies[] = entityreference
 dependencies[] = link
 ; Collabco Custom
-dependencies[] = iin_navigation_block
-dependencies[] = iin_profile_block
 dependencies[] = collabco_module
 ; Input filters
 dependencies[] = pathologic
-; Message
-dependencies[] = message
 ; Nodequeue
 dependencies[] = nodequeue
-; Organic groups
-dependencies[] = og
-dependencies[] = og_access
-dependencies[] = og_context
-dependencies[] = og_field_access
-dependencies[] = og_register
-dependencies[] = og_ui
-dependencies[] = context_og
 ; Other
 dependencies[] = better_formats
 dependencies[] = block_class
 dependencies[] = context
 dependencies[] = diff
-dependencies[] = devel_generate
 dependencies[] = entity
 dependencies[] = entity_token
 dependencies[] = job_scheduler
-dependencies[] = job_scheduler_trigger
 dependencies[] = jquery_update
-dependencies[] = legal
 dependencies[] = libraries
-dependencies[] = logintoboggan
 dependencies[] = masquerade
-dependencies[] = nodequeue_generate
 dependencies[] = pathauto
 dependencies[] = realname
-dependencies[] = realname_registration
-dependencies[] = reg_with_pic
 dependencies[] = stringoverrides
 dependencies[] = strongarm
 dependencies[] = token
+dependencies[] = taxonomy_access_fix
 ; Spam control
 dependencies[] = captcha
 dependencies[] = image_captcha
@@ -101,8 +79,6 @@ dependencies[] = recaptcha
 ; UUID
 dependencies[] = uuid
 dependencies[] = uuid_features
-; User Management
-dependencies[] = register_preapproved
 ; User interface
 dependencies[] = ckeditor
 ; Views

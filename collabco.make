@@ -39,9 +39,6 @@ projects[context][version] = "3.0-beta7"
 projects[context_og][subdir] = "contrib"
 projects[context_og][version] = "2.1"
 
-projects[creative_commons][subdir] = "contrib"
-projects[creative_commons][version] = "1.0"
-
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 
@@ -90,9 +87,6 @@ projects[legal][version] = "1.4"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
-projects[logintoboggan][subdir] = "contrib"
-projects[logintoboggan][version] = "1.3"
-
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.1"
 
@@ -117,26 +111,11 @@ projects[pathologic][version] = "2.11"
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
-projects[profiler][subdir] = "contrib"
-projects[profiler][version] = "2.0-beta1"
-
-projects[profiler_builder][subdir] = "contrib"
-projects[profiler_builder][version] = "1.0"
-
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.1"
 
-projects[realname_registration][subdir] = "contrib"
-projects[realname_registration][version] = "2.0-rc2"
-
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.9"
-
-projects[reg_with_pic][subdir] = "contrib"
-projects[reg_with_pic][version] = "1.0"
-
-projects[register_preapproved][subdir] = "contrib"
-projects[register_preapproved][version] = "1.0-beta2"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
@@ -147,6 +126,9 @@ projects[strongarm][version] = "2.0"
 projects[term_reference_filter_by_views][subdir] = "contrib"
 projects[term_reference_filter_by_views][version] = "2.0-beta2"
 projects[term_reference_filter_by_views][type] = "module"
+
+projects[taxonomy_access_fix][subdir] = "contrib"
+projects[taxonomy_access_fix][version] = "2.0"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
@@ -169,15 +151,7 @@ projects[views_bulk_operations][version] = "3.1"
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
 
-projects[views_slideshow][subdir] = "contrib"
-projects[views_slideshow][version] = "3.x-dev"
-
 ; +++++ Custom +++++
-projects[iin_profile_block][type] = "module"
-projects[iin_profile_block][download][type] = "git"
-projects[iin_profile_block][download][url] = "git@github.com:rafaqz/iin_profile_block.git"
-projects[iin_profile_block][subdir] = "custom"
-
 projects[collabco_module][type] = "module"
 projects[collabco_module][download][type] = "git"
 projects[collabco_module][download][url] = "git@github.com:rafaqz/collabco_module.git"
@@ -203,8 +177,6 @@ projects[collabco_permissions_feature][type] = "module"
 ;projects[collabco_permissions_feature][version] = "1.0-alpha1"
 projects[collabco_permissions_feature][subdir] = "features"
 
-; @TODO - move realname login settings into a separate feature, and anything else
-; that may be site specific.
 projects[collabco_settings_feature][download][type] = "git"
 projects[collabco_settings_feature][download][url] = "git@github.com:rafaqz/collabco_settings_feature"
 projects[collabco_settings_feature][type] = "module"
@@ -225,14 +197,6 @@ projects[collabco_theme][download][url] = "git@github.com:rafaqz/collabco_theme"
 projects[collabco_theme][type] = "theme"
 
 ; +++++ Libraries +++++
-;
-;This can possibly be removed.
-libraries[jquery.cycle][download][type] = "get"
-libraries[jquery.cycle][download][url] = "http://malsup.github.io/jquery.cycle.all.js"
-libraries[jquery.cycle][download][file] = "jquery.cycle.all.min.js"
-libraries[jquery.cycle][directory_name] = "jquery.cycle"
-libraries[jquery.cycle][type] = "library"
-
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"

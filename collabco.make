@@ -151,9 +151,6 @@ projects[views_bulk_operations][version] = "3.1"
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
 
-projects[views_link_area][subdir] = "contrib"
-projects[views_link_area][version] = "1.0"
-
 ; +++++ Custom +++++
 projects[collabco_module][type] = "module"
 projects[collabco_module][download][type] = "git"

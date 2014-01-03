@@ -117,6 +117,9 @@ projects[realname][version] = "1.1"
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.10"
 
+projects[redirect][subdir] = "contrib"
+projects[redirect][version] = "1.0-rc1"
+
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.6"
 
@@ -125,6 +128,9 @@ projects[stringoverrides][version] = "1.8"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
+
+projects[subpathauto][subdir] = "contrib"
+projects[subpathauto][version] = "1.3"
 
 projects[term_reference_filter_by_views][subdir] = "contrib"
 projects[term_reference_filter_by_views][version] = "2.0-beta2"

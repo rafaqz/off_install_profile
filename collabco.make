@@ -13,7 +13,7 @@ projects[drupal][version] = "7.24"
 ; +++++ Modules +++++
 
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-beta5"
+projects[addressfield][version] = "1.0-beta4"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"

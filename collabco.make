@@ -13,7 +13,7 @@ projects[drupal][version] = "7.24"
 ; +++++ Modules +++++
 
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
@@ -34,7 +34,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta7"
+projects[context][version] = "3.1"
 
 projects[context_og][subdir] = "contrib"
 projects[context_og][version] = "2.1"
@@ -43,7 +43,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.3"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.6"
+projects[date][version] = "2.7"
 
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.3"
@@ -52,16 +52,16 @@ projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
 projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.1"
+projects[entity][version] = "1.2"
 
 projects[entityconnect][subdir] = "contrib"
 projects[entityconnect][version] = "1.0-rc1"
 
 projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.0"
+projects[entityreference][version] = "1.1"
 
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[entityreference_prepopulate][version] = "1.3"
+projects[entityreference_prepopulate][version] = "1.4"
 
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
@@ -88,7 +88,7 @@ projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
 projects[link][subdir] = "contrib"
-projects[link][version] = "1.1"
+projects[link][version] = "1.2"
 
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc5"
@@ -106,7 +106,7 @@ projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 
 projects[pathologic][subdir] = "contrib"
-projects[pathologic][version] = "2.11"
+projects[pathologic][version] = "2.12"
 
 projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
@@ -115,7 +115,10 @@ projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.1"
 
 projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.9"
+projects[recaptcha][version] = "1.10"
+
+projects[rules][subdir] = "contrib"
+projects[rules][version] = "2.6"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
@@ -146,7 +149,7 @@ projects[views_autocomplete_filters][subdir] = "contrib"
 projects[views_autocomplete_filters][version] = "1.0"
 
 projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.1"
+projects[views_bulk_operations][version] = "3.2"
 
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"

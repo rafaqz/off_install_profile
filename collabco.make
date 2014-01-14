@@ -209,5 +209,7 @@ projects[collabco_theme][type] = "theme"
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "modules/contrib/ckeditor"
+libraries[ckeditor][overwrite] = TRUE
 libraries[ckeditor][type] = "library"
 

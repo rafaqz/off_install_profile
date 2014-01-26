@@ -157,6 +157,9 @@ projects[views_autocomplete_filters][version] = "1.0"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 
+projects[views_arg_context][subdir] = "contrib"
+;projects[views_arg_context][version] = "" // Currently in dev.
+
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"
 

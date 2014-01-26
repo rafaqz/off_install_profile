@@ -159,6 +159,7 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[views_arg_context][subdir] = "contrib"
 ;projects[views_arg_context][version] = "" // Currently in dev.
+projects[views_arg_context][patch] = https://drupal.org/files/removewarning.patch
 
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta6"

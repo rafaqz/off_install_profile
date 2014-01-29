@@ -33,6 +33,9 @@ projects[captcha][version] = "1.0"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 
+projects[ckeditor_media][subdir] = "contrib"
+projects[ckeditor_media][version] = "1.13"
+
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.1"
 
@@ -93,6 +96,9 @@ projects[link][version] = "1.2"
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc5"
 
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.4"
+
 projects[node_export][subdir] = "contrib"
 projects[node_export][version] = "3.0"
 
@@ -123,6 +129,9 @@ projects[redirect][version] = "1.0-rc1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.6"
 
+projects[socialshare][subdir] = "contrib"
+projects[socialshare][version] = "2.1"
+
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 
@@ -149,7 +158,11 @@ projects[uuid_features][subdir] = "contrib"
 projects[uuid_features][version] = "1.0-alpha3"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.7"
+projects[views][version] = "3.x-dev"
+
+projects[views_arg_context][subdir] = "contrib"
+;projects[views_arg_context][version] = "" // Currently in dev.
+projects[views_arg_context][patch][1568086-3] = https://drupal.org/files/issues/views_arg_context_check_access_update-1568086-3.patch
 
 projects[views_autocomplete_filters][subdir] = "contrib"
 projects[views_autocomplete_filters][version] = "1.0"
@@ -157,12 +170,11 @@ projects[views_autocomplete_filters][version] = "1.0"
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"
 
-projects[views_arg_context][subdir] = "contrib"
-;projects[views_arg_context][version] = "" // Currently in dev.
-projects[views_arg_context][patch][1568086-3] = https://drupal.org/files/issues/views_arg_context_check_access_update-1568086-3.patch
+projects[views_content_cache][subdir] = "contrib"
+projects[views_content_cache][version] = "3.0-alpha3"
 
 projects[views_data_export][subdir] = "contrib"
-projects[views_data_export][version] = "3.0-beta6"
+projects[views_data_export][version] = "3.0-beta7"
 
 ; +++++ Custom +++++
 projects[collabco_module][type] = "module"

@@ -75,6 +75,9 @@ projects[features_extra][version] = "1.0-beta1"
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
 
+projects[flag][subdir] = "contrib"
+projects[flag][version] = "3.3"
+
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.3"
 

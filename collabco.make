@@ -132,9 +132,6 @@ projects[redirect][version] = "1.0-rc1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.6"
 
-projects[socialshare][subdir] = "contrib"
-projects[socialshare][version] = "2.1"
-
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 

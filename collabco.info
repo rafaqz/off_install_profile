@@ -51,6 +51,7 @@ dependencies[] = entityreference
 dependencies[] = link
 ; Collabco Custom
 dependencies[] = collabco_module
+dependencies[] = collabco_integration
 ; Input filters
 dependencies[] = pathologic
 ; Nodequeue

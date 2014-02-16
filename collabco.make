@@ -208,12 +208,6 @@ projects[collabco_settings_feature][type] = "module"
 ;projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
 
-; Collabco sub-theme of openframework, takes care of general styling and layout.
-; a custom_theme subtheme of collabco_theme should be added in a stub make file.
-projects[collabco_theme][download][type] = "git"
-projects[collabco_theme][download][url] = "git@github.com:rafaqz/collabco_theme"
-projects[collabco_theme][type] = "theme"
-
 ; +++++ Libraries +++++
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.2/ckeditor_4.2_standard.tar.gz"

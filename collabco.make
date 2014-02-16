@@ -208,13 +208,6 @@ projects[collabco_settings_feature][type] = "module"
 ;projects[collabco_settings_feature][version] = "1.0-alpha1"
 projects[collabco_settings_feature][subdir] = "features"
 
-; +++++ Themes +++++
-;
-; Base botstrap theme.
-projects[open_framework][type] = "theme"
-projects[open_framework][download][type] = "git"
-projects[open_framework][download][url] = "git@github.com:rafaqz/open_framework.git"
-
 ; Collabco sub-theme of openframework, takes care of general styling and layout.
 ; a custom_theme subtheme of collabco_theme should be added in a stub make file.
 projects[collabco_theme][download][type] = "git"

@@ -78,17 +78,11 @@ projects[feeds][version] = "2.x-dev"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "3.3"
 
-projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "1.3"
-
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.x-dev"
-
-projects[legal][subdir] = "contrib"
-projects[legal][version] = "1.4"
 
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
@@ -101,9 +95,6 @@ projects[masquerade][version] = "1.0-rc5"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
-
-projects[node_export][subdir] = "contrib"
-projects[node_export][version] = "3.0"
 
 projects[nodequeue][subdir] = "contrib"
 projects[nodequeue][version] = "2.x-dev"
@@ -175,6 +166,7 @@ projects[views_content_cache][version] = "3.0-alpha3"
 
 projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta7"
+
 
 ; +++++ Custom +++++
 projects[collabco_module][type] = "module"

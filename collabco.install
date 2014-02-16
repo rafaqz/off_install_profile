@@ -7,7 +7,7 @@
  */
 function collabco_install() {
   // Enable some collabco blocks.
-  $default_theme = 'custom_theme';
+  $default_theme = 'custom_zurb';
   $admin_theme = 'seven';
   // disable all themes
   db_update('system')
@@ -98,9 +98,8 @@ function collabco_install() {
   // revert features to ensure they are all installed
   $features = array(
     'collabco_formats_feature',
-    'collabco_settings_feature',
     'collabco_groups_feature',
-    'collabco_permissions_feature',
+    'collabco_core_feature',
   );
   features_revert($features);
   // ignore any rebuild messages

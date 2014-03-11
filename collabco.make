@@ -152,8 +152,12 @@ projects[views][subdir] = "contrib"
 projects[views][version] = "3.x-dev"
 
 projects[views_arg_context][subdir] = "contrib"
-;projects[views_arg_context][version] = "" // Currently in dev.
 projects[views_arg_context][patch][1568086-3] = https://drupal.org/files/issues/views_arg_context_check_access_update-1568086-3.patch
+projects[views_arg_context][download][type] = "git"
+projects[views_arg_context][download][branch] = "7.x-2.x"
+projects[views_arg_context][download][revision] = "5743ca50f08d03893b082756df80b055fb2219e3"
+projects[views_arg_context][download][url] = "http://git.drupal.org/project/views_arg_context.git"
+projects[views_arg_context][type] = "module"
 
 projects[views_autocomplete_filters][subdir] = "contrib"
 projects[views_autocomplete_filters][version] = "1.0"
@@ -168,7 +172,11 @@ projects[views_data_export][subdir] = "contrib"
 projects[views_data_export][version] = "3.0-beta7"
 
 projects[views_foundation][subdir] = "contrib"
-projects[views_foundation][version] = "4.x-dev"
+projects[views_foundation][download][type] = "git"
+projects[views_foundation][download][branch] = "7.x-4.x"
+projects[views_foundation][download][revision] = "35a388542255dac81d0868a7d4f57f598cb4c142"
+projects[views_foundation][download][url] = "http://git.drupal.org/project/views_foundation.git"
+projects[views_foundation][type] = "module"
 projects[views_foundation][patch][] = "https://drupal.org/files/issues/views_foundation-sections-4.patch"
 
 

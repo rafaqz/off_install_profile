@@ -123,6 +123,9 @@ projects[redirect][version] = "1.0-rc1"
 projects[rules][subdir] = "contrib"
 projects[rules][version] = "2.6"
 
+projects[session_api][subdir] = "contrib"
+projects[session_api][version] = "1.0-rc1"
+
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
 
@@ -327,6 +330,11 @@ projects[off_tags_feature][download][type] = "git"
 projects[off_tags_feature][download][url] = "git@github.com:rafaqz/off_tags_feature"
 projects[off_tags_feature][type] = "module"
 projects[off_tags_feature][subdir] = "features"
+
+projects[off_tag_filter_feature][download][type] = "git"
+projects[off_tag_filter_feature][download][url] = "git@github.com:rafaqz/off_tag_filter_feature"
+projects[off_tag_filter_feature][type] = "module"
+projects[off_tag_filter_feature][subdir] = "features"
 
 projects[off_wiki_feature][download][type] = "git"
 projects[off_wiki_feature][download][url] = "git@github.com:rafaqz/off_wiki_feature"

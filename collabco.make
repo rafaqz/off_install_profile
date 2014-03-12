@@ -34,7 +34,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 
 projects[ckeditor_media][subdir] = "contrib"
-projects[ckeditor_media][version] = "1.13"
+projects[ckeditor_media][version] = "1.x-dev"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.1"

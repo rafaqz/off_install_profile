@@ -96,9 +96,6 @@ projects[masquerade][version] = "1.0-rc5"
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
 
-projects[nodequeue][subdir] = "contrib"
-projects[nodequeue][version] = "2.x-dev"
-
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.4"
 

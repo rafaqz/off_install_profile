@@ -293,6 +293,11 @@ projects[collabco_organisation_feature][download][branch] = "off"
 ;projects[collabco_organisation_feature][version] = "1.0-alpha1"
 projects[collabco_organisation_feature][subdir] = "features"
 
+projects[off_bugherd_feature][download][type] = "git"
+projects[off_bugherd_feature][download][url] = "git@github.com:rafaqz/off_bugherd_feature"
+projects[off_bugherd_feature][type] = "module"
+projects[off_bugherd_feature][subdir] = "features"
+
 projects[off_mail_reply_feature][download][type] = "git"
 projects[off_mail_reply_feature][download][url] = "git@github.com:rafaqz/off_mail_reply_feature"
 projects[off_mail_reply_feature][type] = "module"

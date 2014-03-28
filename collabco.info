@@ -85,6 +85,7 @@ dependencies[] = ckeditor
 ; Views
 dependencies[] = better_exposed_filters
 dependencies[] = views
+dependencies[] = views_arg_context
 dependencies[] = views_autocomplete_filters
 dependencies[] = views_bulk_operations
 dependencies[] = views_ui

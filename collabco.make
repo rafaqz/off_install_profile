@@ -264,10 +264,10 @@ projects[off_featured_feature][download][url] = "git@github.com:rafaqz/off_featu
 projects[off_featured_feature][type] = "module"
 projects[off_featured_feature][subdir] = "features"
 
-projects[off_front_image_feature][download][type] = "git"
-projects[off_front_image_feature][download][url] = "git@github.com:rafaqz/off_front_image_feature"
-projects[off_front_image_feature][type] = "module"
-projects[off_front_image_feature][subdir] = "features"
+projects[off_front_icons_feature][download][type] = "git"
+projects[off_front_icons_feature][download][url] = "git@github.com:rafaqz/off_front_icons_feature"
+projects[off_front_icons_feature][type] = "module"
+projects[off_front_icons_feature][subdir] = "features"
 
 projects[off_header_feature][download][type] = "git"
 projects[off_header_feature][download][url] = "git@github.com:rafaqz/off_header_feature"

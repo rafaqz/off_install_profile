@@ -308,6 +308,11 @@ projects[off_image_feature][download][url] = "git@github.com:rafaqz/off_image_fe
 projects[off_image_feature][type] = "module"
 projects[off_image_feature][subdir] = "features"
 
+projects[off_performance_feature][download][type] = "git"
+projects[off_performance_feature][download][url] = "git@github.com:rafaqz/off_performance_feature"
+projects[off_performance_feature][type] = "module"
+projects[off_performance_feature][subdir] = "features"
+
 ;projects[off_mail_reply_feature][download][type] = "git"
 ;projects[off_mail_reply_feature][download][url] = "git@github.com:rafaqz/off_mail_reply_feature"
 ;projects[off_mail_reply_feature][type] = "module"

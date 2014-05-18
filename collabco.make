@@ -353,10 +353,10 @@ projects[off_tag_filter_feature][download][url] = "git@github.com:rafaqz/off_tag
 projects[off_tag_filter_feature][type] = "module"
 projects[off_tag_filter_feature][subdir] = "features"
 
-projects[off_wiki_feature][download][type] = "git"
-projects[off_wiki_feature][download][url] = "git@github.com:rafaqz/off_wiki_feature"
-projects[off_wiki_feature][type] = "module"
-projects[off_wiki_feature][subdir] = "features"
+projects[off_document_feature][download][type] = "git"
+projects[off_document_feature][download][url] = "git@github.com:rafaqz/off_document_feature"
+projects[off_document_feature][type] = "module"
+projects[off_document_feature][subdir] = "features"
 
 ;projects[collabco_search_feature][download][type] = "git"
 ;projects[collabco_search_feature][download][url] = "git@github.com:rafaqz/collabco_search_feature"

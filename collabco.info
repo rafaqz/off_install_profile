@@ -77,9 +77,6 @@ dependencies[] = taxonomy_access_fix
 dependencies[] = captcha
 dependencies[] = image_captcha
 dependencies[] = recaptcha
-; UUID
-dependencies[] = uuid
-dependencies[] = uuid_features
 ; User interface
 dependencies[] = ckeditor
 ; Views

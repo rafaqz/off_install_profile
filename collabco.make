@@ -241,6 +241,11 @@ projects[collabco_profile_feature][download][branch] = "off"
 projects[collabco_profile_feature][type] = "module"
 projects[collabco_profile_feature][subdir] = "features"
 
+projects[collabco_spam_feature][download][type] = "git"
+projects[collabco_spam_feature][download][url] = "git@github.com:pmackay/collabco_spam_feature"
+projects[collabco_spam_feature][type] = "module"
+projects[collabco_spam_feature][subdir] = "features"
+
 projects[off_basic_page_feature][download][type] = "git"
 projects[off_basic_page_feature][download][url] = "git@github.com:rafaqz/off_basic_page_feature"
 projects[off_basic_page_feature][type] = "module"

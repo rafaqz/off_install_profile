@@ -78,6 +78,9 @@ projects[feeds][version] = "2.x-dev"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "3.3"
 
+projects[honeypot][subdir] = "contrib"
+projects[honeypot][version] = "1.17"
+
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 
@@ -240,6 +243,11 @@ projects[collabco_profile_feature][download][url] = "git@github.com:rafaqz/colla
 projects[collabco_profile_feature][download][branch] = "off"
 projects[collabco_profile_feature][type] = "module"
 projects[collabco_profile_feature][subdir] = "features"
+
+projects[collabco_spam_feature][download][type] = "git"
+projects[collabco_spam_feature][download][url] = "git@github.com:pmackay/collabco_spam_feature"
+projects[collabco_spam_feature][type] = "module"
+projects[collabco_spam_feature][subdir] = "features"
 
 projects[off_basic_page_feature][download][type] = "git"
 projects[off_basic_page_feature][download][url] = "git@github.com:rafaqz/off_basic_page_feature"

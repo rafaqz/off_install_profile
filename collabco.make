@@ -78,9 +78,6 @@ projects[feeds][version] = "2.x-dev"
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "3.3"
 
-projects[honeypot][subdir] = "contrib"
-projects[honeypot][version] = "1.17"
-
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
 

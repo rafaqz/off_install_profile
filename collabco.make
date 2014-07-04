@@ -64,7 +64,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[entityreference_prepopulate][version] = "1.5
+projects[entityreference_prepopulate][version] = "1.5"
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
 

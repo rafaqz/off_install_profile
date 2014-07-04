@@ -13,19 +13,19 @@ projects[drupal][version] = "7.28"
 
 ; +++++ Modules +++++
 projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-beta4"
+projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
 
 projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.0-beta3"
+projects[better_exposed_filters][version] = "3.0-beta4"
 
 projects[better_formats][subdir] = "contrib"
 projects[better_formats][version] = "1.0-beta1"
 
 projects[block_class][subdir] = "contrib"
-projects[block_class][version] = "2.0"
+projects[block_class][version] = "2.1"
 
 projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0"
@@ -37,19 +37,19 @@ projects[ckeditor_media][subdir] = "contrib"
 projects[ckeditor_media][version] = "1.x-dev"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.1"
+projects[context][version] = "3.2"
 
 projects[context_og][subdir] = "contrib"
 projects[context_og][version] = "2.1"
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.4"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.3"
+projects[devel][version] = "1.5"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
@@ -64,8 +64,7 @@ projects[entityreference][subdir] = "contrib"
 projects[entityreference][version] = "1.1"
 
 projects[entityreference_prepopulate][subdir] = "contrib"
-projects[entityreference_prepopulate][version] = "1.4"
-
+projects[entityreference_prepopulate][version] = "1.5
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
 
@@ -76,7 +75,7 @@ projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
 
 projects[flag][subdir] = "contrib"
-projects[flag][version] = "3.3"
+projects[flag][version] = "3.5"
 
 projects[job_scheduler][subdir] = "contrib"
 projects[job_scheduler][version] = "2.0-alpha3"
@@ -85,19 +84,18 @@ projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.x-dev"
 
 projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.1"
-
+projects[libraries][version] = "2.2
 projects[link][subdir] = "contrib"
 projects[link][version] = "1.2"
 
 projects[masquerade][subdir] = "contrib"
-projects[masquerade][version] = "1.0-rc5"
+projects[masquerade][version] = "1.0-rc7"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "1.4"
 
 projects[og][subdir] = "contrib"
-projects[og][version] = "2.4"
+projects[og][version] = "2.7"
 
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
@@ -109,10 +107,7 @@ projects[profile2][subdir] = "contrib"
 projects[profile2][version] = "1.3"
 
 projects[realname][subdir] = "contrib"
-projects[realname][version] = "1.1"
-
-projects[recaptcha][subdir] = "contrib"
-projects[recaptcha][version] = "1.10"
+projects[realname][version] = "1.2"
 
 projects[redirect][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc1"
@@ -134,16 +129,10 @@ projects[term_reference_filter_by_views][version] = "2.0-beta2"
 projects[term_reference_filter_by_views][type] = "module"
 
 projects[taxonomy_access_fix][subdir] = "contrib"
-projects[taxonomy_access_fix][version] = "2.0"
+projects[taxonomy_access_fix][version] = "2.1"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
-
-projects[uuid][subdir] = "contrib"
-projects[uuid][version] = "1.0-alpha5"
-
-projects[uuid_features][subdir] = "contrib"
-projects[uuid_features][version] = "1.0-alpha3"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.x-dev"
@@ -157,7 +146,7 @@ projects[views_arg_context][download][url] = "http://git.drupal.org/project/view
 projects[views_arg_context][type] = "module"
 
 projects[views_autocomplete_filters][subdir] = "contrib"
-projects[views_autocomplete_filters][version] = "1.0"
+projects[views_autocomplete_filters][version] = "1.1"
 
 projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "3.2"

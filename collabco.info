@@ -73,10 +73,6 @@ dependencies[] = stringoverrides
 dependencies[] = strongarm
 dependencies[] = token
 dependencies[] = taxonomy_access_fix
-; Spam control
-dependencies[] = captcha
-dependencies[] = image_captcha
-dependencies[] = recaptcha
 ; User interface
 dependencies[] = ckeditor
 ; Views

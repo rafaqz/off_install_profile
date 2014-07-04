@@ -27,9 +27,6 @@ projects[better_formats][version] = "1.0-beta1"
 projects[block_class][subdir] = "contrib"
 projects[block_class][version] = "2.1"
 
-projects[captcha][subdir] = "contrib"
-projects[captcha][version] = "1.0"
-
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 

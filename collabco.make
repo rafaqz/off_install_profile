@@ -62,6 +62,7 @@ projects[entityreference][version] = "1.1"
 
 projects[entityreference_prepopulate][subdir] = "contrib"
 projects[entityreference_prepopulate][version] = "1.5"
+
 projects[features][subdir] = "contrib"
 projects[features][version] = "2.0"
 
@@ -70,6 +71,9 @@ projects[features_extra][version] = "1.0-beta1"
 
 projects[feeds][subdir] = "contrib"
 projects[feeds][version] = "2.x-dev"
+
+projects[field_collection][version] = "1.0-beta7"
+projects[field_collection][subdir] = "contrib"
 
 projects[flag][subdir] = "contrib"
 projects[flag][version] = "3.5"

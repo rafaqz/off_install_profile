@@ -1,0 +1,110 @@
+; Packaging information for off profile
+name = "off"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = update
+dependencies[] = user
+; Context
+dependencies[] = context
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_views
+; Feeds
+dependencies[] = feeds
+dependencies[] = feeds_ui
+; Fields
+dependencies[] = addressfield
+dependencies[] = entityreference
+dependencies[] = link
+; Custom
+dependencies[] = integration
+; Input filters
+dependencies[] = pathologic
+; Other
+dependencies[] = better_formats
+dependencies[] = block_class
+dependencies[] = context
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = job_scheduler
+dependencies[] = jquery_update
+dependencies[] = libraries
+dependencies[] = masquerade
+dependencies[] = pathauto
+dependencies[] = subpathauto
+dependencies[] = redirect
+dependencies[] = realname
+dependencies[] = stringoverrides
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = taxonomy_access_fix
+; User interface
+dependencies[] = ckeditor
+; Views
+dependencies[] = better_exposed_filters
+dependencies[] = views
+dependencies[] = views_arg_context
+dependencies[] = views_autocomplete_filters
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+; Features
+dependencies[] = features
+dependencies[] = core_feature
+dependencies[] = integration
+dependencies[] = formats_feature
+dependencies[] = conversation_feature
+dependencies[] = groups_feature
+dependencies[] = knowledge_feature
+dependencies[] = login_feature
+dependencies[] = mail_feature
+dependencies[] = message_feature
+dependencies[] = profile_feature
+dependencies[] = spam_feature
+dependencies[] = basic_page_feature
+dependencies[] = bugherd_feature
+dependencies[] = document_feature
+dependencies[] = featured_feature
+dependencies[] = front_icons_feature
+dependencies[] = header_feature
+dependencies[] = image_feature
+dependencies[] = news_feature
+dependencies[] = pages_feature
+dependencies[] = performance_feature
+dependencies[] = projects_feature
+dependencies[] = share_feature
+dependencies[] = tags_feature
+dependencies[] = tag_filter_feature

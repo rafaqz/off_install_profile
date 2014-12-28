@@ -168,11 +168,6 @@ projects[views_foundation][patch][] = "https://drupal.org/files/issues/views_fou
 
 
 ; +++++ Custom +++++
-projects[module][type] = "module"
-projects[module][download][type] = "git"
-projects[module][download][url] = "git@github.com:rafaqz/module.git"
-projects[module][subdir] = "custom"
-
 projects[integration][download][type] = "git"
 projects[integration][download][url] = "git@github.com:rafaqz/integration"
 projects[integration][type] = "module"

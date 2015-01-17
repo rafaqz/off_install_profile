@@ -108,4 +108,4 @@ dependencies[] = projects_feature
 dependencies[] = share_feature
 dependencies[] = tags_feature
 dependencies[] = tag_filter_feature
-;dependencies[] = off_layout_feature
+dependencies[] = off_layout_feature

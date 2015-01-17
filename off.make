@@ -362,6 +362,11 @@ projects[document_feature][subdir] = "features"
 ;projects[slideshow_feature][type] = "module"
 ;projects[slideshow_feature][subdir] = "features"
 
+;projects[off_layout_feature][download][type] = "git"
+;projects[off_layout_feature][download][url] = "git@github.com:rafaqz/off_layout_feature.git"
+;projects[off_layout_feature][type] = "module"
+;projects[off_layout_feature][subdir] = "features"
+
 
 ; +++++ Themes +++++
 projects[zurb-foundation][version]= "4.0-beta2"

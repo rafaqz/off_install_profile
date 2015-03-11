@@ -38,49 +38,14 @@ dependencies[] = update
 dependencies[] = user
 ; Context
 dependencies[] = context
-; Date/Time
-dependencies[] = date
-dependencies[] = date_api
-dependencies[] = date_views
-; Feeds
-dependencies[] = feeds
-dependencies[] = feeds_ui
-; Fields
-dependencies[] = addressfield
-dependencies[] = entityreference
-dependencies[] = link
-; Custom
-dependencies[] = integration
 ; Input filters
 dependencies[] = pathologic
 ; Other
-dependencies[] = better_formats
-dependencies[] = block_class
 dependencies[] = context
 dependencies[] = diff
-dependencies[] = entity
-dependencies[] = entity_token
-dependencies[] = job_scheduler
-dependencies[] = jquery_update
-dependencies[] = libraries
 dependencies[] = masquerade
-dependencies[] = pathauto
-dependencies[] = subpathauto
-dependencies[] = redirect
 dependencies[] = realname
 dependencies[] = stringoverrides
-dependencies[] = strongarm
-dependencies[] = token
-dependencies[] = taxonomy_access_fix
-; User interface
-dependencies[] = ckeditor
-; Views
-dependencies[] = better_exposed_filters
-dependencies[] = views
-dependencies[] = views_arg_context
-dependencies[] = views_autocomplete_filters
-dependencies[] = views_bulk_operations
-dependencies[] = views_ui
 ; Features
 dependencies[] = features
 dependencies[] = core_feature
@@ -90,7 +55,7 @@ dependencies[] = conversation_feature
 dependencies[] = groups_feature
 dependencies[] = knowledge_feature
 dependencies[] = login_feature
-;dependencies[] = mail_feature
+dependencies[] = mail_feature
 dependencies[] = message_feature
 dependencies[] = profile_feature
 dependencies[] = spam_feature

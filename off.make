@@ -9,28 +9,9 @@ core = 7.x
 api = 2
 projects[drupal][version] = "7.28"
 
-
 ; +++++ Modules +++++
-projects[addressfield][subdir] = "contrib"
-projects[addressfield][version] = "1.0-beta5"
-
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc4"
-
-projects[better_exposed_filters][subdir] = "contrib"
-projects[better_exposed_filters][version] = "3.0-beta4"
-
-projects[better_formats][subdir] = "contrib"
-projects[better_formats][version] = "1.0-beta1"
-
-projects[block_class][subdir] = "contrib"
-projects[block_class][version] = "2.1"
-
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.13"
-
-projects[ckeditor_media][subdir] = "contrib"
-projects[ckeditor_media][version] = "1.x-dev"
 
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.2"
@@ -38,134 +19,32 @@ projects[context][version] = "3.2"
 projects[context_og][subdir] = "contrib"
 projects[context_og][version] = "2.1"
 
-projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.4"
-
-projects[date][subdir] = "contrib"
-projects[date][version] = "2.7"
-
-projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.5"
-
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
-
-projects[entity][subdir] = "contrib"
-projects[entity][version] = "1.2"
 
 projects[entityconnect][subdir] = "contrib"
 projects[entityconnect][version] = "1.0-rc1"
 
-projects[entityreference][subdir] = "contrib"
-projects[entityreference][version] = "1.1"
-
-projects[entityreference_prepopulate][subdir] = "contrib"
-projects[entityreference_prepopulate][version] = "1.5"
-
-projects[features][subdir] = "contrib"
-projects[features][version] = "2.0"
-
-projects[features_extra][subdir] = "contrib"
-projects[features_extra][version] = "1.0-beta1"
-
-projects[feeds][subdir] = "contrib"
-projects[feeds][version] = "2.x-dev"
-
-projects[field_collection][version] = "1.0-beta7"
-projects[field_collection][subdir] = "contrib"
-
-projects[flag][subdir] = "contrib"
-projects[flag][version] = "3.5"
-
-projects[job_scheduler][subdir] = "contrib"
-projects[job_scheduler][version] = "2.0-alpha3"
-
-projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "2.x-dev"
-
-projects[libraries][subdir] = "contrib"
-projects[libraries][version] = "2.2"
-
-projects[link][subdir] = "contrib"
-projects[link][version] = "1.2"
-
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.0-rc7"
 
-projects[media][subdir] = "contrib"
-projects[media][version] = "1.4"
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.5"
 
 projects[og][subdir] = "contrib"
 projects[og][version] = "2.7"
 
-projects[pathauto][subdir] = "contrib"
-projects[pathauto][version] = "1.2"
-
 projects[pathologic][subdir] = "contrib"
 projects[pathologic][version] = "2.12"
 
-projects[profile2][subdir] = "contrib"
-projects[profile2][version] = "1.3"
-
 projects[realname][subdir] = "contrib"
 projects[realname][version] = "1.2"
-
-projects[redirect][subdir] = "contrib"
-projects[redirect][version] = "1.0-rc1"
 
 projects[session_api][subdir] = "contrib"
 projects[session_api][version] = "1.0-rc1"
 
 projects[stringoverrides][subdir] = "contrib"
 projects[stringoverrides][version] = "1.8"
-
-projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "2.0"
-
-projects[subpathauto][subdir] = "contrib"
-projects[subpathauto][version] = "1.3"
-
-projects[term_reference_filter_by_views][subdir] = "contrib"
-projects[term_reference_filter_by_views][version] = "2.0-beta2"
-projects[term_reference_filter_by_views][type] = "module"
-
-projects[taxonomy_access_fix][subdir] = "contrib"
-projects[taxonomy_access_fix][version] = "2.1"
-
-projects[token][subdir] = "contrib"
-projects[token][version] = "1.5"
-
-projects[views][subdir] = "contrib"
-projects[views][version] = "3.x-dev"
-
-projects[views_arg_context][subdir] = "contrib"
-projects[views_arg_context][patch][1568086-3] = https://drupal.org/files/issues/views_arg_context_check_access_update-1568086-3.patch
-projects[views_arg_context][download][type] = "git"
-projects[views_arg_context][download][branch] = "7.x-2.x"
-projects[views_arg_context][download][revision] = "5743ca50f08d03893b082756df80b055fb2219e3"
-projects[views_arg_context][download][url] = "http://git.drupal.org/project/views_arg_context.git"
-projects[views_arg_context][type] = "module"
-
-projects[views_autocomplete_filters][subdir] = "contrib"
-projects[views_autocomplete_filters][version] = "1.1"
-
-projects[views_bulk_operations][subdir] = "contrib"
-projects[views_bulk_operations][version] = "3.2"
-
-projects[views_content_cache][subdir] = "contrib"
-projects[views_content_cache][version] = "3.0-alpha3"
-
-projects[views_data_export][subdir] = "contrib"
-projects[views_data_export][version] = "3.0-beta7"
-
-projects[views_foundation][subdir] = "contrib"
-projects[views_foundation][download][type] = "git"
-projects[views_foundation][download][branch] = "7.x-4.x"
-projects[views_foundation][download][revision] = "35a388542255dac81d0868a7d4f57f598cb4c142"
-projects[views_foundation][download][url] = "http://git.drupal.org/project/views_foundation.git"
-projects[views_foundation][type] = "module"
-projects[views_foundation][patch][] = "https://drupal.org/files/issues/views_foundation-sections-4.patch"
-
 
 ; +++++ Custom +++++
 projects[integration][download][type] = "git"

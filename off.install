@@ -6,29 +6,25 @@
  * Perform actions to set up the site for this profile.
  */
 function collabco_install() {
-  // Enable some collabco blocks.
   $default_theme = 'custom_zurb';
   $admin_theme = 'seven';
-  // disable all themes
+
+  // Enable themes
+  theme_enable(array($default_theme, $admin_theme));
+
+    // The Bartik theme is automatically enabled during installation. Disable it.
   db_update('system')
     ->fields(array('status' => 0))
     ->condition('type', 'theme')
+    ->condition('name', 'bartik')
     ->execute();
-  // enable $default_theme
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', $default_theme)
-    ->execute();
-  // enable $admin_theme
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', $admin_theme)
-    ->execute();
+
+  // Set the default and administration themes.
+  variable_set('theme_default', $default_theme);
+  // Set a default administrative theme:
   variable_set('admin_theme', $admin_theme);
-  // activate admin theme when editing a node
-  variable_set('node_admin_theme', '0');
+  variable_set('node_admin_theme', FALSE);
+
   $blocks = array(
     array(
       'module' => 'system',
@@ -95,13 +91,6 @@ function collabco_install() {
     //->execute();
   // Update the menu router information.
   menu_rebuild();
-  // revert features to ensure they are all installed
-  $features = array(
-    'collabco_formats_feature',
-    'collabco_groups_feature',
-    'collabco_core_feature',
-  );
-  features_revert($features);
   // ignore any rebuild messages
   node_access_needs_rebuild(FALSE);
   // ignore any other install messages

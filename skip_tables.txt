@@ -64,7 +64,7 @@ field_config_instance
 filter
 filter_format
 flag
-flag_count
+flag_counts
 flag_type
 flood
 history

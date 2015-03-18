@@ -11,7 +11,7 @@ $conf['preprocess_css'] = 1;
 $conf['preprocess_js'] = 1;
 
 // Memchache configuration
-$conf['cache_backends'][] = 'sites/all/modules/memcache_storage/memcache_storage.inc';
+$conf['cache_backends'][] = 'profiles/off/modules/contrib/memcache_storage/memcache_storage.inc';
 $conf['cache_default_class'] = 'MemcacheStorage';
 $conf['cache_class_cache_form'] = 'DrupalDatabaseCache';
 $conf['cache_class_cache_update'] = 'DrupalDatabaseCache';

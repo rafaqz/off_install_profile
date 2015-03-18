@@ -1,0 +1,6 @@
+// Staging settings
+$conf['error_level'] = '0';
+$conf['preprocess_css'] = '1'; 
+$conf['preprocess_js'] = '1';
+$conf['page_compression'] = '1';
+
